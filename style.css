@@ -1,0 +1,19 @@
+body{
+    background: red;
+}
+
+p{
+    background: #000;
+    color: aquamarine;
+}
+
+h3{
+    /* border-style: dotted double solid dashed ; */
+    border-style: dotted double ;
+    /* border-right: dashed;
+    border-left: solid;
+    border-top: dotted;
+    border-bottom: double; */
+    /* border-style: dashed; */
+    /* border: 3px dashed greenyellow; */
+}

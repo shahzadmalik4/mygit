@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: red;
+        text-align: center;
+        padding-top: 30px;
+        animation: hello 5s ease-in 1s infinite alternate ;
+        position: relative;
+        /* animation-name: hello;
+        animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   animation-direction: alternate; */
+        }
+
+        @keyframes hello {
+            0%{
+                background: #000;
+                left: 0;
+                top: 0;
+            }
+            25%{
+                background: #40e63e;
+                left: 100px;
+                top: 0;
+            }
+             50%{
+                background: purple;
+                left: 100px;
+                top: 200px;
+            }
+            75%{
+                background: yellow;
+                left: 0px;
+                top: 200px; 
+            }
+            100%{
+                background: rgb(102, 70, 138);
+                left: 0px;
+                top: 0px; 
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div class="box">animation</div>
+</body>
+</html>

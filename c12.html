@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query | website responsive</title>
+    <style>
+        body{
+            background: rgb(239, 26, 26);
+        }
+        h1{
+            font-size: 60px;
+            color: aquamarine;
+      
+        }
+        p{
+            font-size: 25px;
+            color: red;
+          
+        }
+        /* small screen */
+    @media(min-width:0px) and (max-width:480px) {
+        body{
+            background: blue;
+        }
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    /* tablet screen */
+    @media(min-width:481px) and (max-width:768px) {
+        body{
+            background: rgb(243, 179, 190);
+        }
+    }
+      /* laptop screen */
+      @media(min-width:769px) and (max-width:1279px) {
+        body{
+            background: rgb(124, 192, 126);
+        }
+    }
+         /* large screen desk screen */
+         @media(min-width:1280px)  {
+        body{
+            background: rgb(216, 211, 74);
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>hello welcome</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio. Magni facere saepe, temporibus magnam aut nobis laborum aliquid vel ipsum vero porro nostrum iure laudantium sunt omnis expedita non.</p>
+</body>
+</html>
